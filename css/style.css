@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body {
+    background-image: url('../img/marble.jpg');
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+#cart {
+    width: 50%;
+}
+
+footer #social {
+    max-width: 20px;
+}
+
+
+#main-content input[type=text] {
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+}
+
+#main-content button[type=button] {
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    background-color: rgba(141, 176, 147, 0.359);
+}
+
+h1 {
+    font-size: 2rem;
+  }
+
+h3 {
+    font-size: 1rem;
+  }
+
+
+  /* Tablets and Desktop Screens */
+@media only screen and (min-width: 35rem) {
+h1 {
+    font-size: 4rem;
+  }
+
+h3 {
+    font-size: 2rem;
+}
+
+
+#cart{
+    width: 15%;
+}
+}
